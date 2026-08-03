@@ -44,6 +44,23 @@ As processors become faster while memory improvements progress more gradually, t
 
 Computer architects address this challenge using a **memory hierarchy**, where different types of memory are organized according to their speed, size, and cost.
 
+### Memory Hierarchy Structure
+
+          CPU
+           │
+    CPU Registers
+           │
+      L1 Cache
+           │
+      L2 Cache
+           │
+      L3 Cache
+           │
+    Main Memory (RAM)
+           │
+    Secondary Storage
+      (SSD / HDD)
+
 The memory hierarchy typically consists of:
 
 * **CPU Registers** – The fastest and smallest storage located inside the processor.
